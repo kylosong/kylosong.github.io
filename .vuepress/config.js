@@ -2,7 +2,6 @@ module.exports = {
   "title": "blogs",
   "description": "personal blog",
   "dest": "dist",
-  "base": '/kylosong.github.io/',
   "head": [
     [
       "link",
