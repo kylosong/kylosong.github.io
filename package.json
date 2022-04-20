@@ -1,0 +1,21 @@
+{
+  "name": "blogs",
+  "version": "1.0.0",
+  "author": "Mr.Song",
+  "scripts": {
+    "dev": "vuepress dev . --open --host \"localhost\"",
+    "build": "vuepress build ."
+  },
+  "devDependencies": {
+    "vuepress": "1.8.2",
+    "vuepress-theme-reco": "1.6.10"
+  },
+  "description": "personal blog",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "keywords": [],
+  "license": "ISC"
+}
