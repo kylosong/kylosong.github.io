@@ -1,23 +1,21 @@
 {
-  "name": "kylosong.github.io",
+  "name": "blogs",
   "version": "1.0.0",
-  "description": "Personal blog",
-  "main": "index.js",
+  "author": "Mr.Song",
   "scripts": {
-    "deploy": "npm run build && bash deploy.sh",
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vuepress dev . --open --host \"localhost\"",
+    "build": "vuepress build ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kylosong/kylosong.github.io.git"
+  "devDependencies": {
+    "vuepress": "1.8.2",
+    "vuepress-theme-reco": "1.6.10"
   },
+  "description": "personal blog",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kylosong/kylosong.github.io/issues"
-  },
-  "homepage": "https://github.com/kylosong/kylosong.github.io#readme"
+  "license": "ISC"
 }
