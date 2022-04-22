@@ -37,8 +37,12 @@ module.exports = {
         "items": [
           {
             "text": "LearnCSS",
-            "link": "/docs/theme-reco/"
-            // "link": "https://web.dev/learn/css/"
+            // "link": "/docs/theme-reco/"
+            "link": "https://web.dev/learn/css/"
+          },
+          {
+            "text": "文档",
+            "link": "/docs/theme-reco/",
           }
         ]
       },
@@ -92,7 +96,7 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "Mr.Song",
     "authorAvatar": "/avatar.jpg",
-    "record": "xxxx",
+    "record": "safe",
     "startYear": "2017"
   },
   "markdown": {
