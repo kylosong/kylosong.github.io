@@ -4,7 +4,7 @@
   "author": "Mr.Song",
   "scripts": {
     "deploy": "bash deploy.sh",
-    "serve": "vuepress dev . --open --host \"localhost\"",
+    "serve": "vuepress dev . --open --host \"localhost\" --temp .temp",
     "build": "vuepress build ."
   },
   "devDependencies": {

@@ -38,6 +38,7 @@ module.exports = {
           {
             "text": "LearnCSS",
             "link": "/docs/theme-reco/"
+            // "link": "https://web.dev/learn/css/"
           }
         ]
       },
@@ -58,7 +59,6 @@ module.exports = {
         "",
         "theme",
         "plugin",
-        "api"
       ]
     },
     "type": "blog",
