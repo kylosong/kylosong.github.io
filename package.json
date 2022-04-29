@@ -16,7 +16,9 @@
   "directories": {
     "doc": "docs"
   },
-  "dependencies": {},
+  "dependencies": {
+    "moment": "^2.29.3"
+  },
   "keywords": [],
   "license": "ISC"
 }
