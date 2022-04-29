@@ -20,6 +20,17 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+    // 关闭默认腾讯公益404页面
+    noFoundPageByTencent: false,
+    // 通过valine配置评论和浏览量功能
+    valineConfig: {
+      appId: 'I4NFviHFDEmK088Li8psmWHl-gzGzoHsz',// your appId
+      appKey: 'jxSeL1fN5VzaAea1rxxrrfYJ', // your appKey
+      // 默认关闭评论功能
+      showComment: false,
+      // 默认开启浏览量统计
+      visitor: true,
+    },
     "nav": [
       {
         "text": "首页",
