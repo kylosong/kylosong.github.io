@@ -1,6 +1,17 @@
 const moment = require("moment");
 
 module.exports = {
+  // plugins: [
+  //   "@vuepress/last-updated",
+  //   {
+  //     transformer: (timestamp, lang) => {
+  //       // 不要忘了安装 moment
+  //       const moment = require("moment");
+  //       moment.locale(lang);
+  //       return moment(timestamp).fromNow();
+  //     },
+  //   },
+  // ],
   title: "夜白",
   description: "真正的发现，不是遇见新的风景，而是寻得新的眼睛",
   dest: "dist",
@@ -120,16 +131,6 @@ module.exports = {
   markdown: {
     lineNumbers: true,
     extractHeaders: ["h2", "h3"],
-  },
-  plugins: [
-    "@vuepress/last-updated",
-    {
-      transformer: (timestamp, lang) => {
-        // 不要忘了安装 moment
-        const moment = require("moment");
-        moment.locale(lang);
-        return moment(timestamp).fromNow();
-      },
-    },
-  ],
+  }
+  
 };
