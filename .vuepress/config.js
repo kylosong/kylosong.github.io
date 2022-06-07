@@ -12,7 +12,7 @@ module.exports = {
   //     },
   //   },
   // ],
-  title: "_锋芒毕露",
+  title: "Aoe夜白",
   description: "真正的发现，不是遇见新的风景，而是寻得新的眼睛",
   dest: "dist",
   head: [
