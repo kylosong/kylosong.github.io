@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "author": "Mr.Song",
   "scripts": {
-    "deploy": "bash deploy.sh",
+    "deploy": "sh deploy.sh",
     "serve": "vuepress dev . --open --host \"localhost\" --temp .temp",
     "build": "vuepress build ."
   },
   "devDependencies": {
     "vuepress": "1.8.2",
-    "vuepress-theme-reco": "1.6.10"
+    "vuepress-theme-reco": "1.6.15"
   },
   "description": "personal blog",
   "main": "index.js",
